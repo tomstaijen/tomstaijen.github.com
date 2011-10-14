@@ -3,18 +3,17 @@ layout: default
 title: First Post
 ---
 
-This will be the best blog ever.
-
 <div id="blog">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </div>
 	
-{% highlight C# %}
+{% highlight Csharp linenos %}
 
-foreach( var x in xs ) {
-   yield(x);
+class BlogModel {
+	public BlogModel() {
+	}
 }
 
 {% endhighlight %}
