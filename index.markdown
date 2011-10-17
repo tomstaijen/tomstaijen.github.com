@@ -22,7 +22,7 @@ Dit is nog een paragraaf. Dit is best wel **vet** zeg. En je kunt het ook ***com
 > Daarnaast moet het inspringen en hoort het bij elkaar. 
 
 {% for post in site.posts %}
-+ {{ post.date | date_to_string }} [{{ post.title }}]({{site.url}}{{post.url}})
++ {{ post.date | date_to_string }} [{{ post.title }}]({{post.url}})
 {% endfor %}
 
 Linkje <http://tomstaijen.github.com>
@@ -34,3 +34,6 @@ Code test
 Nog een code test
 
     What happens now? <can><i><just> type anything?
+	
+OMG
+:	Oh My God

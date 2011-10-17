@@ -8,8 +8,8 @@
 	</head>
 	<body>
 		<div id="page">
-			<div id="header" onclick="location.href='http://tomstaijen.github.com';" style="cursor: pointer;">
-				<h1 class="blog-title">	<a href="http://tomstaijen.github.com/">Tom Staijen</a></h1>
+			<div id="top" onclick="location.href='http://tomstaijen.github.com';" style="cursor: pointer;">
+				<h1 class="blog-title"><a href="http://tomstaijen.github.com/">Separation + Composition</a></h1>
 				<p class="description">About Architecture, Code Quality and Automation</p>
 				<ul class="menu">
 					<li class="tab">
@@ -23,17 +23,12 @@
 					</li>
 				</ul><!-- .menu -->
 			</div> <!-- #header -->
-			<div id="content">
-				<div id="primary-wrapper">
-					<div id="primary">
-						{{ content }}
-					</div> <!-- #primary -->
-					<hr />
-				</div>
-				<div class="secondary">
-					<div class="widget">
+			<div id="side">
+				<!--
+				<div class="widget">
 						<img src="http://qrcode.kaywa.com/img.php?s=5&d={{ site.url | cgi_escape }}{{ page.url | cgi_escape  }}" width="100">
 					</div>
+				-->
 					<div class="widget">
 						<h4>Categories</h4>
 						<ul>
@@ -49,9 +44,12 @@
 						</ul>
 					</div>
 				</div> <!-- #sidebar-1 -->
-				<hr />
-				<div class="clear"></div>
-			</div> <!-- .content -->
+			<div id="main">
+				<h1>{{ page.title }}</h1>
+				<div class="content">
+						{{ content }}
+				</div> <!-- #rimary -->
+			</div>
 			<div id="footer">
 				<p class="footerpoweredby">Powered by <a title="GitHub: Social Coding" href="http://github.com/">Github</a> and <a href="https://github.com/mojombo/jekyll" title="Github blog generator." >Jekyll</a></p>
 			</div>
