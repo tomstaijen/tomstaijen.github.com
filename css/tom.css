@@ -36,14 +36,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 body, h1, h2, h3 , h4, h5, h6 {
 	font-family: "Trebuchet MS", Arial, sans-serif;
-	color: #27D;
+	color: #393939;
 }
 
 body {
 	font-size: small;
 	/* font-size: 80%; /* Resets 1em to 10px */
 	color: #000;
-	background: #EEE;
+	background: #6e6e6e;
 	text-align: center;
 }
 
@@ -58,20 +58,10 @@ body {
 	width: 780px;
 }
 
-.blog-title {
-	font-size: 2.5em;
-	font-weight: bold;
-	padding: 10px 30px 0;
-}
-
-.blog-title a, #top .description , .blog-title a:hover{
-	text-decoration: none;
-	color: #444;
-}
-
 #top .description { /* Description in header */
 	font-size: 1em;
 	margin: 0 30px;
+	color: #fff
 }
 
 p  {
@@ -80,87 +70,46 @@ p  {
 
 #top {
 	position: relative;
-	height: 120px;
-	background-position: top right;
+	height: 20px;
+	margin-top:20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url("/images/header_logo.png");
+	background-position: top left;
 	background-repeat: no-repeat;
 	overflow: hidden;
 }
 
-ul.menu {
-	position: absolute;
-	white-space: nowrap;
-	bottom: 0;
-	margin: 0 20px;
-	}
-
-ul.menu, ul.menu li {
-	float: left;
-	list-style: none;
-}
-
-ul.menu li {
-	margin-right: 4px;
-}
-
-ul.menu li a {
-	display: block;
-	padding: 5px 15px;
-	font-size: 1em;
-	color: #000;
-}
-
-ul.menu li a:hover {
-	text-decoration: none;
-}
-
-ul.menu li.tab a , ul.menu li.tab a:hover 
-{
-	text-decoration: none;
+#top .description {
+	visibility: hidden;
+	position:relative;
+	padding-top: 30px;
+	font-size: 14px;
+	font-weight: strong;
 }
 
 #content {
-	padding: 0 10px 10px;
-}
-
-#main {
 	background: #FFF;
-	margin-left: 200px;
 	position: relative;
 	float: left;
-	width: 500px;
-	padding: 20px 20px 10px 50px;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-
+	width: 690px;
+	padding: 20px 20px 20px 70px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
-#side {
-	position: absolute;
-	float: left;
-	width: 205px;
-	border-top: 1px solid #eee;
-	font-size: 1em;
-	line-height: 1.5em;
-	padding: 0 0px;
-	overflow: hidden;
+h1  {
+   font-size: 20px;
 }
 
-#side h4 { /* Secondary H4 is sidebar headlines */
-	font-size: 12px;
-	font-weight: strong;
-	padding: 0;
-	display: block;
-	margin-bottom: 5px;
-}
-
-h1 , h2 {
-	font-size: 18px;
+h2 {
+	font-size: 16px;
 }
 
 h3 {
-	font-size: 16px;
+	font-size: 14px;
 }
 h4 {
 	font-size: 12px;
@@ -171,22 +120,12 @@ h4 {
 	font-weight: normal;
 }
 
-#side div {
-	margin: 20px 0 0;
-	padding: 0;
-	position: relative;
-}
-
-#side span a {
-	margin-left: 10px;
-}
-
 #footer {
 	clear: both;
 	margin: 0 auto;
 	padding: 20px 0 40px;
 	text-align: center;
-	color: #777;
+	color: #C0C0C0;
 	}
 
 #footer p {

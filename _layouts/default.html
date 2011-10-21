@@ -8,47 +8,11 @@
 	</head>
 	<body>
 		<div id="page">
-			<div id="top" onclick="location.href='http://tomstaijen.github.com';" style="cursor: pointer;">
-				<h1 class="blog-title"><a href="http://tomstaijen.github.com/">Separation + Composition</a></h1>
+			<div id="top">
 				<p class="description">About Architecture, Code Quality and Automation</p>
-				<ul class="menu">
-					<li class="tab">
-						<a href="/" title="Feed">Feed</a>
-					</li>
-					<li class="tab">
-						<a href="/contact/" title="Get In Touch">Get In Touch</a>
-					</li>
-					<li class="tab">
-						<a href="/profile/" title="Our Story">Our Story</a>
-					</li>
-				</ul><!-- .menu -->
-			</div> <!-- #header -->
-			<div id="side">
-				<!--
-				<div class="widget">
-						<img src="http://qrcode.kaywa.com/img.php?s=5&d={{ site.url | cgi_escape }}{{ page.url | cgi_escape  }}" width="100">
-					</div>
-				-->
-					<div class="widget">
-						<h4>Categories</h4>
-						<ul>
-							<li class="cat-item cat-item-5"><a href="http://welcometohr.com/category/architecture/" title="View all posts filed under Architecture">Architecture</a></li>
-							<li class="cat-item cat-item-3"><a href="http://welcometohr.com/category/admin/" title="View all posts filed under Admin">.NET</a></li>
-							<li class="cat-item cat-item-4"><a href="http://welcometohr.com/category/advertising/" title="View all posts filed under Advertising">Ruby</a></li>
-						</ul>
-					</div>
-					<div class="widget">
-						<h4>Archives</h4>
-						<ul>
-							<li><a href='http://welcometohr.com/2011/10/' title='October 2011'>October 2011</a></li>
-						</ul>
-					</div>
-				</div> <!-- #sidebar-1 -->
-			<div id="main">
-				<h1>{{ page.title }}</h1>
-				<div class="content">
-						{{ content }}
-				</div> <!-- #rimary -->
+			</div>
+			<div id="content">
+				{{content}}
 			</div>
 			<div id="footer">
 				<p class="footerpoweredby">Powered by <a title="GitHub: Social Coding" href="http://github.com/">Github</a> and <a href="https://github.com/mojombo/jekyll" title="Github blog generator." >Jekyll</a></p>
