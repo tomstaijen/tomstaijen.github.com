@@ -6,7 +6,7 @@ layout: default
 
 {{ post.content }}
 
-{% endfor}
+{% endfor %}
 
 
 {% for post in site.posts | limit 10 offset 1 %}
