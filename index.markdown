@@ -1,10 +1,14 @@
 ---
 layout: default
 ---
+{% for post in site.posts | limit 1 %}
+# {{ post.title }}
 
-# Welcome
+{{ post.content }}
+
+{% endfor}
 
 
-{% for post in site.posts | limit 3 %}
-*	[{{ post.url }}]({{ post.title }})
+{% for post in site.posts | limit 10 offset 1 %}
++ {{ post.date | date_to_string }} [{{ post.title }}]({{post.url}})
 {% endfor %}
