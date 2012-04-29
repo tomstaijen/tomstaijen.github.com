@@ -1,22 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<title>bTom - {{page.title}}</title>
-		<link rel="stylesheet" type="text/css" href="/css/tom.css" />
-		<link rel="stylesheet" type="text/css" href="/css/pygments.css"/>
-	</head>
-	<body>
-		<div id="page">
-			<div id="top">
-				<p class="description">About Architecture, Code Quality and Automation</p>
-			</div>
-			<div id="content">
-				{{content}}
-			</div>
-			<div id="footer">
-				<p class="footerpoweredby">Powered by <a title="GitHub: Social Coding" href="http://github.com/">Github</a> and <a href="https://github.com/mojombo/jekyll" title="Github blog generator." >Jekyll</a></p>
-			</div>
-		</div> <!-- Close Page -->
-	</body>
-</html> 
+---
+theme :
+  name : twitter
+---
+{% include JB/setup %}
+{% include themes/twitter/default.html %}
