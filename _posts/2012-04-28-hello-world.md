@@ -9,7 +9,7 @@ tags: []
 
 # Testing some albacore features
 
-{% highlight csharp %]
+{% highlight csharp %}
 
 using System;
 using System.IO;
