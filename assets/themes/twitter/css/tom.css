@@ -1,0 +1,192 @@
+/* @override http://localhost/k2/wp-content/themes/k2103/style.css */
+
+/*
+Theme Name: K2
+Theme URI: http://getk2.com
+Description: <strong><a href="themes.php?page=k2-options">Configure K2</a></strong> or visit the <a href="http://groups.google.com/group/k2-support">support forums</a>, <a href="http://code.google.com/p/kaytwo/w/list">the wiki</a> or <a href="http://code.google.com/p/kaytwo/issues/list">the bug tracker</a>. K2 was developed by <a href="http://binarybonsai.com/">Michael</a>, <a href="http://chrisjdavis.org/">Chris</a>, <a href="http://zeo.unic.net.my/">Zeo</a>, <a href="http://stevelam.org/">Steve</a>, Ben and <a href="http://xentek.net/">Eric Marden</a>, and is licensed under the <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a>.
+Version: 1.0.3
+Author: Various Artists
+Author URI: http://getk2.com/
+Tags: blue, custom-header, fixed-width, flexible-width, one-column, two-columns, three-columns, theme-options, threaded-comments, microformats, translation-ready, light
+
+The Real K2: http://en.wikipedia.org/wiki/K2
+
+$Revision: 932 $
+*/
+
+/* Reset CSS */
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Typography */
+
+body, h1, h2, h3 , h4, h5, h6 {
+	font-family: "Trebuchet MS", Arial, sans-serif;
+	color: #393939;
+}
+
+body {
+	font-size: small;
+	/* font-size: 80%; /* Resets 1em to 10px */
+	color: #000;
+	background: #6e6e6e;
+	text-align: center;
+}
+
+#page {
+	text-align: left;
+	margin: 0 auto;
+	padding-top: 0px;
+	position: relative;
+	border: 0px solid #ddd;
+	border-top: none;
+	clear: both;
+	width: 780px;
+}
+
+#top .description { /* Description in header */
+	font-size: 1em;
+	margin: 0 30px;
+	color: #fff
+}
+
+p  {
+	line-height: 160%;
+}
+
+#top {
+	position: relative;
+	height: 20px;
+	margin-top:20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-image: url("/images/header_logo.png");
+	background-position: top left;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#top .description {
+	visibility: hidden;
+	position:relative;
+	padding-top: 30px;
+	font-size: 14px;
+	font-weight: strong;
+}
+
+#content {
+	background: #FFF;
+	position: relative;
+	float: left;
+	width: 690px;
+	padding: 20px 20px 20px 70px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+h1  {
+   font-size: 20px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 14px;
+}
+h4 {
+	font-size: 12px;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+#footer {
+	clear: both;
+	margin: 0 auto;
+	padding: 20px 0 40px;
+	text-align: center;
+	color: #C0C0C0;
+	}
+
+#footer p {
+	line-height: 1.6em;
+}
+
+#footer a {
+	color: #888;
+	font-weight: bold;
+	}
+
+#footer a:hover {
+	border: none;
+	text-decoration: none;
+	color: #000;
+	}
+
+a:hover, a:visited:hover {
+	text-decoration: underline;
+}
+
+a {
+	color: #27d;
+	text-decoration: none;
+}
+
+p {
+	padding-top: 5px;
+}
+
+code {
+	font-size: 1.1em;
+}
+
+blockquote {
+	margin: 20px 0;
+	padding: 10px 20px 10px 50px;
+	border: none;
+	background: #EEE;
+}
+
+hr {
+	display: none;
+}
+
+/* Lists */
+
+.entry-content ol, .entry-content ul {
+	padding: 0 0 0 35px;
+	}
+
+.entry-content ol li, .entry-content ul li {
+	margin: 0 0 3px;
+	padding: 0;
+	}
+
+#side div p {
+	margin-top: 0.5em;
+}
+	
+#side ul li {
+	list-style-type: none;
+	list-style-image: none;
+}
