@@ -2,6 +2,13 @@
 html, body {
   background-color: #eee;
 }
+
+h3 {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
 .navbar {
   margin-bottom: 0;
 }
@@ -39,6 +46,10 @@ html, body {
 
 /* tag_box ======================================================== */
 
+.box {
+	margin-bottom: 20px;
+}
+
 .tag_box {
 	list-style:none;
 	margin:0;
@@ -48,6 +59,11 @@ html, body {
 .tag_box li {
 	line-height:28px;
 }
+
+.posts li span {
+	font-family: monofur, monaco, courier;
+}
+
 .tag_box.inline li {
 	float:left;
 }
