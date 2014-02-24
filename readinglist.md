@@ -4,6 +4,8 @@ title: "Reading List"
 ---
 {% include JB/setup %}
 
+# My Reading List
+
 This page contains my personal reading list of topics, technologies or blog posts I want to read soon or late.
 
 ### Version Control
@@ -22,6 +24,6 @@ Tips/blogposts for writing code comments
 
 - [Comments in code: Make them usefull!](http://www.mellekoning.nl/index.php/2009/03/16/comments-in-code-make-them-usefull/)
 
-###
+### Books
 
 - [Code Complete](http://www.amazon.com/gp/product/0735619670?ie=UTF8&tag=martinfowlerc-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0735619670)
