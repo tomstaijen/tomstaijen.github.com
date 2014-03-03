@@ -4,7 +4,7 @@ title: AOP with Autofac
 description: ""
 category: null
 tags: []
-published: true
+published: false
 ---
 
 {% include JB/setup %}
