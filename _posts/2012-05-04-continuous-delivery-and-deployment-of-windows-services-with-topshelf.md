@@ -4,6 +4,7 @@ title: "Continuous Delivery of Windows Services with Topshelf"
 description: "Deploying windows services with robocopy"
 category: Continuous Delivery
 tags: [.NET, Continuous Delivery]
+published: false
 ---
 {% include JB/setup %}
 
