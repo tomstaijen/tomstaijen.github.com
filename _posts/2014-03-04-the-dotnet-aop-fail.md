@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AOP with Autofac
+title: Why AOP fails in .NET
 description: ""
 category: null
 tags: []
