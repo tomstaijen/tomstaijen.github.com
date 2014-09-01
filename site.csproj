@@ -38,17 +38,27 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="404.html" />
+    <Content Include="archive.html" />
     <Content Include="assets\return-values-screenshot.png" />
+    <Content Include="atom.xml" />
+    <Content Include="categories.html" />
     <Content Include="css\main.css" />
     <Content Include="css\syntax.css" />
     <Content Include="favicon.ico" />
+    <Content Include="sitemap.txt" />
+    <Content Include="tags.html" />
     <Content Include="_layouts\default.html" />
     <Content Include="_layouts\page.html" />
     <Content Include="_layouts\post.html" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="about.md" />
     <None Include="Gemfile" />
+    <None Include="index.md" />
     <None Include="jekyll.cmd" />
+    <None Include="pages.md" />
+    <None Include="readinglist.md" />
     <None Include="_config.yml" />
     <None Include="_posts\2014-03-04-bootstrapping-autofac-with-reusable-components.md" />
     <None Include="_posts\2014-03-04-configuration-injection.md" />

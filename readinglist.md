@@ -2,7 +2,6 @@
 layout: page
 title: "Reading List"
 ---
-{% include JB/setup %}
 
 # My Reading List
 
