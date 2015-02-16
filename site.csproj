@@ -40,11 +40,9 @@
     <Content Include=".gitignore" />
     <Content Include="404.html" />
     <Content Include="archive.html" />
-    <Content Include="assets\return-values-screenshot.png" />
+    <Content Include="assets\pages.css" />
     <Content Include="atom.xml" />
     <Content Include="categories.html" />
-    <Content Include="css\main.css" />
-    <Content Include="css\syntax.css" />
     <Content Include="favicon.ico" />
     <Content Include="sitemap.txt" />
     <Content Include="tags.html" />

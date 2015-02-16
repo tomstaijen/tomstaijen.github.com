@@ -5,14 +5,27 @@ header: Posts By Tag
 group: navigation
 ---
 
-<ul class="tag_box inline">
-  {% assign tags_list = site.tags %}  
-</ul>
+<div class="ui animated selection list">
+    {% assign tags_list = site.tags %}
+    {% for tag in tags_list %} 
+    <div class="item">
+        <a href="#{{ tag[0] }}-ref">{{ tag[0] }}</a>
+    </div>
+    {% endfor %}
+</div>
 
 
 {% for tag in site.tags %} 
-  <h2 id="{{ tag[0] }}-ref">{{ tag[0] }}</h2>
-  <ul>
-    {% assign pages_list = tag[1] %}  
-  </ul>
+    <h4 class="ui dividing header" id="{{ tag[0] }}-ref">{{ tag[0] }}</h4>
+
+
+    <div class="ui animated selection list">
+        {% assign pages_list = tag[1] %}  
+        {% for page in pages_list %}
+            <div class="item">
+                <a href="{{ BASE_PATH }}{{ page.url }}">{{ page.title }}</a>
+            </div>
+        {% endfor %}
+     </div>
 {% endfor %}
+

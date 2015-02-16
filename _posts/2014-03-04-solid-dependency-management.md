@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Continuous Delivery of Windows Services with Topshelf"
-description: "Deploying windows services with robocopy"
+title: "Solid Dependency Management"
+description: "A solution management principle"
 category: Continuous Delivery
 tags: [.NET, Visual Studio]
-published: true
+published: false
 
 ---
 

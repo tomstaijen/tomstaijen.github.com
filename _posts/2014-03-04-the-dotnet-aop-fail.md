@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Why AOP fails in .NET
-description: ""
+title: The .NET AOP fail
+description: "Why bother trying if the authors of the frameworks did not either.."
 category: null
-tags: []
-published: true
+tags: [ .NET, AOP]
+published: false
+
 ---
 
 Hello
