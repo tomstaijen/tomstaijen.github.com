@@ -1,14 +1,13 @@
 ---
+
 layout: post
 title: "Configuration Injection"
 description: "Configuration is a concern that needs to be separated"
 category: Dependency Injection
 tags: [.NET, Visual Studio, SoC, Dependency Injection, C#]
-published: false
+published: true
 
 ---
-
-## Configuration Injection
 
 It's an easy mistake to have your logic take a configuration option straight from the configuration file, for example using a piece of code like:
 

@@ -10,6 +10,7 @@ tagline: Dealing with complexity in writing code.
           <div class="item">
             <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
             <div class="right floated">{{ post.date | date_to_string }}</div>
+            <div class="excerpt">{{ post.excerpt }}</div>
           </div>
   {% endfor %}
 </div>
