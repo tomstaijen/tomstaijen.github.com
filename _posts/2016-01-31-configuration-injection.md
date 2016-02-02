@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Configuration Injection"
+title: "NEVER EVER use ConfigurationManager"
 description: "Configuration is a concern that needs to be separated"
 category: Dependency Injection
 tags: [.NET, Visual Studio, SoC, Dependency Injection, C#]

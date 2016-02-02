@@ -14,17 +14,33 @@
 
   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Open+Sans:300italic,400,300,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
   <link rel="stylesheet" type="text/css" href="/assets/pages.css">
   <link rel="stylesheet" type="text/css" href="/assets/solarized.css">
 
   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-  <script src="/assets/semantic/semantic.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+  <style type="text/css">
+
+  .ui.menu .item img.logo {
+    margin-right: 1.5em;
+  }
+  .main.container {
+    margin-top: 7em;
+  }
+  .wireframe {
+    margin-top: 2em;
+  }
+  .ui.footer.segment {
+    margin: 5em 0em 0em;
+    padding: 5em 0em;
+  }
+  </style>
 
 </head>
     <body id="site">
-        <div class="ui inverted main menu">
-            <div class="container">
+        <div class="ui fixed inverted menu">
+            <div class="ui container">
                 <div class="title item">
                     <a href="/">
                         <i class="signal icon"></i>
@@ -54,10 +70,14 @@
                 
             </div>
         </div>
-        <div class="container">
+        <div class="ui main container">
             {{ content }}
         </div>
-        
+        <div class="ui inverted vertical footer segment">
+            <div class="ui container">
+                <h1 class="ui inverted header">hello</h1>
+            </div>    
+        </div>
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
