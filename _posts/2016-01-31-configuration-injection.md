@@ -24,4 +24,6 @@ There's couple of reasons to not do that:
 
 ### Configuration is a concern
 
-
+{% plantuml %}
+[First] - [Second]
+{% endplantuml %}
