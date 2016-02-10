@@ -125,23 +125,12 @@ If you want your code to reflect the abstractions of your architecture, you shou
 
 # Architecture of the solution
 
-![Alt text](http://g.gravizo.com/g?
-@startuml;
-CakeScript ..> [Cake Extension];
-[Cake Extension] -> [ModelBuilder];
-[ModelBuilder] -> [RoslynAnalyser];
-[RoslynAnalyser] ..> plantuml : write;
-[RoslynAnalyser] ..> markdown : write;
-[Preprocessor] ..> plantuml : read;
-[Preprocessor] ..> png : write;
-markdown ..> png : embed;
-@enduml;
-)
+{% plantuml %}
+class Dummy [[http://www.yahoo.com]]
+{% endplantuml  %}
 
 but also:
 
 * Risk
 * Technique
 * Rationale (couples Risk to Technique)
-
-![Alt text](http://g.

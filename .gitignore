@@ -1,3 +1,4 @@
 *.suo
 .bundle/install.log
 _site
+uml
