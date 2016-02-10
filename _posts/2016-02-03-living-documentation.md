@@ -3,8 +3,8 @@
 layout: post
 title: "Architecture as Code"
 description: "Configuration is a concern that needs to be separated"
-category: Dependency Injection
-tags: [.NET, Visual Studio, SoC, Dependency Injection, C#]
+category: Architecture
+tags: [Living Documentation, Architecture as Code, UML, Specification by Example, Just enough Architecture]
 published: true
 
 ---
@@ -20,18 +20,18 @@ Listen to [this talk from Simon Brown about Software Architecture as Code](https
 
 [Here is a whitepaper on (just enough) risk-driven architecture](http://static1.1.sqspcdn.com/static/f/702523/9359219/1289413590470/201011-Fairbanks.pdf?token=S3TtgslSp14YaQPT%2FtYEqKUE%2BKg%3D) 
 
-Here's some thoughts on generating living documentation in the context: 
+Here's some thoughts on generating living documentation in the context:
 * Agile
-* Continuous Delivery / DevOps (everything is automated) 
-* Microservices architecture (multi-repository)  
+* Continuous Delivery / DevOps (everything is automated)
+* Microservices architecture (multi-repository)
 
 Code is the embodyment of the software architecture (or of technical depth respective to the goal architecture).
 
-Why use code to store fact, knowledge, decisions. 
+Why use code to store fact, knowledge, decisions.
 
 
 
-You can generate diagrams and use the information to enhance the diagrams. 
+You can generate diagrams and use the information to enhance the diagrams.
 
 Imagine you can draw a component or class diagram and show in red where technical debt is.
 
@@ -47,16 +47,16 @@ General ways to do this
 
 * Work in version control
 * Work in a declarative fashion when possible
-* **Have your code reflect the abstractions that you use to explain the system** 
+* **Have your code reflect the abstractions that you use to explain the system**
 * Put design information in documentation or annotations on code elements.
 * Generate diagrams from code elements
 * Use design information to supplement your diagrams.
 * Use inventory files to generate deployment diagrams
-* If needed, add some first class entities to your code base to represent levels of your documentation that are not represented in code. 
+* If needed, add some first class entities to your code base to represent levels of your documentation that are not represented in code.
 
 # Functional rationale
 
-In many cases, a rationale (bussiness case) is specified per project/change, which does not often reflect a single component. 
+In many cases, a rationale (bussiness case) is specified per project/change, which does not often reflect a single component.
 
 You have a number of choices here:
 
@@ -66,13 +66,26 @@ You have a number of choices here:
 
 # Functional specification
 
-Use features from your automated tests to describe the system in a user story kind of fashion. 
+Use features from your automated tests to describe the system in a user story kind of fashion.
 
 # Logical view
 
+What is that?
 Containers
 
 (Services, (runtime) components, layers)
+
+# Static structure
+
+C4: Context, Containers, (interesting) Components, (optional) Classes
+
+* **Container** Runtime chunk (app, database, loadbalancer, etc)
+* **Component** a cohesive bunch of stuff with a clean and simple interface (modules, services)
+
+According to [Just Enough Architecture][just-enough-architecture]
+* **Module**: Chunk of code
+* **Component**: Runtime chunk
+* **Node**: Hardware chunk
 
 # Development view
 
@@ -104,6 +117,26 @@ If you want your code to reflect the abstractions of your architecture, you shou
 * Container
 * Component
 * Class
+[model-code-gap]: https://www.youtube.com/watch?v=aL0MYu5WZk8
+[architecture-as-code]: https://www.youtube.com/watch?v=W2hagw1VhhI
+[just-enough-architecture]: https://books.google.nl/books?id=ITsWdAAzVYMC&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+[spiral-model]: https://en.wikipedia.org/wiki/Spiral_model
+
+
+# Architecture of the solution
+
+![Alt text](http://g.gravizo.com/g?
+@startuml;
+CakeScript ..> [Cake Extension];
+[Cake Extension] -> [ModelBuilder];
+[ModelBuilder] -> [RoslynAnalyser];
+[RoslynAnalyser] ..> plantuml : write;
+[RoslynAnalyser] ..> markdown : write;
+[Preprocessor] ..> plantuml : read;
+[Preprocessor] ..> png : write;
+markdown ..> png : embed;
+@enduml;
+)
 
 but also:
 
