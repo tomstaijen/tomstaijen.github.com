@@ -22,8 +22,3 @@ There's couple of reasons to not do that:
 - Your logic demands something from it's runtime container, which is bad for reuse.
 - You're mixing responsibilities, namely the logic your class is responsible for and the Configuration concern. If your logic needs a parameter it should be passed to your logic from the outside, either through the contructor, through the method usage (e.g. a method call), or by requesting the value through some interface.
 
-### Configuration is a concern
-
-{% plantuml %}
-[First] - [Second]
-{% endplantuml %}
