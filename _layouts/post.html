@@ -1,17 +1,5 @@
 ---
-layout: default
+layout: semantic
 ---
 
-<h1 class="ui header">{{ page.title }}</h2>
-<div class="row">
-    <div class="meta">
-    posted by <strong><a href="/about.html">{{ site.author.handle }}</a></strong> on {{ page.date | date_to_string }} in category <i>{{ page.category }}</i>
-        </div>
-        {% for tag in page.tags %}
-        <a class="ui label">{{ tag }}</a>
-        {% endfor %}
-</div>
-
-<div class="post">
 {{ content }}
-</div>

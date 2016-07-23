@@ -2,7 +2,7 @@
 
 layout: post
 title: "Association, Aggregation, Composition"
-description: ""
+description: "If you just can't remember, write it down somewhere."
 category: UML
 tags: [UML, Design, OOP]
 published: true

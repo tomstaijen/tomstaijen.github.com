@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Architecture as Code"
+title: "Documentation as Code"
 description: "Configuration is a concern that needs to be separated"
 category: Architecture
 tags: [Living Documentation, Architecture as Code, UML, Specification by Example, Just enough Architecture]
@@ -117,20 +117,24 @@ If you want your code to reflect the abstractions of your architecture, you shou
 * Container
 * Component
 * Class
-[model-code-gap]: https://www.youtube.com/watch?v=aL0MYu5WZk8
-[architecture-as-code]: https://www.youtube.com/watch?v=W2hagw1VhhI
-[just-enough-architecture]: https://books.google.nl/books?id=ITsWdAAzVYMC&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
-[spiral-model]: https://en.wikipedia.org/wiki/Spiral_model
 
 
 # Architecture of the solution
-
-{% plantuml %}
-class Dummy [[http://www.yahoo.com]]
-{% endplantuml  %}
 
 but also:
 
 * Risk
 * Technique
 * Rationale (couples Risk to Technique)
+
+
+
+~~~ csharp
+var a = new Henkie();
+a.Talk();
+~~~
+
+[model-code-gap]: https://www.youtube.com/watch?v=aL0MYu5WZk8
+[architecture-as-code]: https://www.youtube.com/watch?v=W2hagw1VhhI
+[just-enough-architecture]: https://books.google.nl/books?id=ITsWdAAzVYMC&printsec=frontcover&hl=nl&source=gbs_ge_summary_r&cad=0#v=onepage&q&f=false
+[spiral-model]: https://en.wikipedia.org/wiki/Spiral_model

@@ -1,15 +1,20 @@
 ---
 layout: page
-title: Separation &amp; Composition
+title: Index
 tagline: Dealing with complexity in writing code.
 ---
 
-<h2 class="ui dividing header">Recent posts</h2>
-<div class="ui animated selection list">
+<h2 class="ui header">Recent posts</h2>
+<div class="ui relaxed divided  list">
   {% for post in site.posts %}
           <div class="item">
-            <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-            <div class="right floated">{{ post.date | date_to_string }}</div>
+            <i class="large github middle aligned icon"></i>
+            <div class="content">
+              <a class="header" href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+              <div class="description">{{ post.description }}</div>
+            </div>
           </div>
   {% endfor %}
 </div>
+
+

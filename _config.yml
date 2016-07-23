@@ -2,15 +2,15 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:year/:month/:day/:title 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: true
 
 # gems: ['jekyll-plantuml']
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Separation & Composition
-tagline: About coding & architecture in .NET
+title : tomstaijen.github.io
+tagline: .NET, Microservices, Continuous Delivery, Cloud, Infrastructure as Code, Documentation, Agile, NoSQL
+
 author :
   name : Tom Staijen
   handle : tom
@@ -19,8 +19,10 @@ author :
   linkedin : tomstaijen
   twitter : tomstaijen
 
-
 markdown:    kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 

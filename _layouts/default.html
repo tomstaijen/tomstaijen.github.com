@@ -1,5 +1,5 @@
 ---
-  name : default
+name: default
 ---
 <!DOCTYPE html>
 <html>
@@ -39,7 +39,7 @@
 
 </head>
     <body id="site">
-        <div class="ui fixed inverted menu">
+        <div class="ui sidebar">
             <div class="ui container">
                 <div class="title item">
                     <a href="/">
@@ -49,9 +49,6 @@
                 </div>
                 <div class="item">
                     <a href="/about.html">About</a>
-                </div>
-                <div class="item">
-                    <a href="/pages.html">Pages</a>
                 </div>
 
                 <div class="right menu">
@@ -71,10 +68,13 @@
             </div>
         </div>
         <div class="ui main container">
+            <div class="ui left rail">
+                hello
+            </div>
             {{ content }}
         </div>
         <div class="ui inverted vertical footer segment">
-            <div class="ui container">
+            <div class="ui inverted container">
                 <h1 class="ui inverted header">hello</h1>
             </div>    
         </div>

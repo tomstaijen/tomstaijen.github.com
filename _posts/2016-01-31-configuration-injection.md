@@ -1,10 +1,10 @@
 ---
 
 layout: post
-title: "NEVER EVER use ConfigurationManager"
-description: "Configuration is a concern that needs to be separated"
+title: "How to properly use ConfigurationManager"
+description: "Or better yet, don't use it at all"
 category: Dependency Injection
-tags: [.NET, Visual Studio, SoC, Dependency Injection, C#]
+tags: [.NET, SoC, Dependency Injection, C#]
 published: true
 
 ---

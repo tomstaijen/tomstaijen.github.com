@@ -40,6 +40,7 @@ DEPENDENCIES
   jekyll-plantuml
   kramdown
   listen
+  rouge
   wdm
 
 BUNDLED WITH
