@@ -1,10 +1,10 @@
 ---
 
 layout: post
-title: "Documentation as Code"
-description: "Configuration is a concern that needs to be separated"
+title: "Living Documentation"
+description: "Can you keep up your documentation while becoming more and more agile?"
 category: Architecture
-tags: [Living Documentation, Architecture as Code, UML, Specification by Example, Just enough Architecture]
+tags: [Documentation, Architecture as Code, UML, Specification by Example, Just enough Architecture]
 published: true
 
 ---
