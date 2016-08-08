@@ -4,6 +4,27 @@ title: Onderzoek Joannes Stajen
 description: Aantekeningen bij het onderzoek naar gegevens en voorouders van Joannes Stajen
 ---
 
+# Joannus Stajen 1680
+
+In 1707 in Zyfflich doop van zoon Gisbertus, [DTB Zyfflich 1640 - 1803]
+* Vermelding met naam: Joannus **Staij**
+* Vermelding van getuige: Maria Staeij (zus of moeder?)
+* Bewijs correctheid: moeder dopeling is Maria van Megen 
+
+# Theororus Staeijen
+
+Wie is dit? Misschien een broer van Joannus 1980.
+* Geboorte dochter Maria in 1724, ex Ooy. [DTB Zyfflich 1640 - 1803], Maria Staeijen is getuige.   
+
+# Barth Stajen 1713 - 1714
+
+[Doop DTB Kekerdom](http://www.geldersarchief.nl/zoeken/?mivast=37&miadt=37&miaet=18&micode=0176_1493&minr=24298635&miview=ldt)
+
+# Cornelius van Megen
+
+
+[Geboorte in register van Zyfflich](http://members.chello.nl/g.vbenthem/DTBZyfflich.htm) Vermeldt dat de inschrijving uit Ooij komt.
+
 # Bronnen
 
 * [Huwelijk van Jan van Staejen en Maria van Megen - Gelders Archief](http://www.geldersarchief.nl/zoeken/?mivast=37&mizig=128&miadt=37&miaet=18&micode=0176_1498&minr=24302233&miview=ldt)
@@ -13,7 +34,7 @@ Pagina 17 volgnummer 6.
 
 * [Bevolking van millingen](http://www.arieleeuwrik.nl/millingen/bevmill/)
 
-* [Joannus Stajen (1680) in 'Bevolking van Millingen'][1]
+* [Joannus Stajen (1680) in 'Bevolking van Millingen'](http://www.arieleeuwrik.nl/millingen/bevmill/6740.htm)
 
 * [DTB Millingen](http://www.arieleeuwrik.nl/millingen/dtb.htm)
 Verscheidene DTB en BS lijsten uit de regio Millingen 
@@ -42,10 +63,13 @@ Joannus Stajen (1680) als Jan Staejen, geboorte 1> Henderina (1705)
 
 * [Gelders Archief: Personen: Stajen](http://www.geldersarchief.nl/zoeken/?mivast=37&miadt=37&mizig=128&miview=tbl&milang=nl&micols=1&misort=dt%7Casc&mires=0&mip2=Stajen)
 
+ 
+
+
 # Afbeeldingen
 
 * ![Plaatje van Ubbergen](http://www.francien-kroes-arts.nl/ubbergen.gif)
 
 
-[1]: http://www.arieleeuwrik.nl/millingen/bevmill/6740.htm
 
+[DTB Zyfflich 1640 - 1803]: http://members.chello.nl/~g.vbenthem/DTBZyfflich.htm
