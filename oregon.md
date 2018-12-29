@@ -1,6 +1,20 @@
 ---
 title: "Oregon Coast Roadtrip"
+layout: page
 ---
+
+# Route
+
+* [525 km] North Vancouver to Astoria
+* [30 km] Astoria to Seaside
+* [14 km] Seaside to Cannon Beach
+* [290 km] Cannon Beach to Reedsport
+* [44 km] Reedsport to Coos Bay
+* [39 km] Coos Bay to Bandon
+* [43 km] Bandon to Port Orford
+
+# Astoria
+
 
 # Tillamook
 
